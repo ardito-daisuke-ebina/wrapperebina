@@ -15,7 +15,7 @@ let package = Package(
             targets: ["EbinaFrameworkWrapper"])    // <--- reference the wrapper here
     ],
     dependencies: [
-        .package(url: "https://github.com/ardito-daisuke-ebina/swift-ogg.git", from: "0.0.5"),
+        .package(url: "https://github.com/ardito-daisuke-ebina/swift-ogg.git", from: "0.8.0"),
         .package(url: "https://github.com/element-hq/opus-swift.git", from: "0.8.4"),
         .package(url: "https://github.com/element-hq/ogg-swift.git", from: "0.8.3"),
         
