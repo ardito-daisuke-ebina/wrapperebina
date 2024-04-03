@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ardito-daisuke-ebina/swift-ogg.git",
       "state" : {
-        "revision" : "b9bc81ecd6d0418f8a756afbec627c7a9272b606",
-        "version" : "1.0.1"
+        "revision" : "9c8a2f1ce849fe165ba015b69b57c97a7b6eb595",
+        "version" : "1.0.5"
       }
     }
   ],
