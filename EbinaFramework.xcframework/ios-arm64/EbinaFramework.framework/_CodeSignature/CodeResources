@@ -18,15 +18,15 @@
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		JLqFmkeV6h38oZ9P5p5lyZIsUAg=
+		g6FxJ/N9M69jWhL2np1rvm0aNPY=
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		nijtHZ84YEGLtmmG0EakYwEsDRA=
+		+I7NLlgyR24qRksyevrxQiW++tg=
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		u/orQf8e3egEXH5nw73Z5b5Kqg0=
+		rPSYgrM5fluCRpW/0LNn0S8fCxQ=
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		u/orQf8e3egEXH5nw73Z5b5Kqg0=
+		rPSYgrM5fluCRpW/0LNn0S8fCxQ=
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		C047L9bi+jvhXEscdQKI8qd4jxU=
+		nOdV/5Q2QnkWJwKZQBV97dJE7eE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -49,10 +49,6 @@
 	<dict>
 		<key>Headers/EbinaFramework-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yejT4PBxhDLv9at2c34SKRtG7fY=
-			</data>
 			<key>hash2</key>
 			<data>
 			lry/ME6jjUSP3xsmpkrhFNh0tsunubCrseuH6XvjjOA=
@@ -60,10 +56,6 @@
 		</dict>
 		<key>Headers/EbinaFramework.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bbqhQy7tPFvNZG6BpNesaT8X5dk=
-			</data>
 			<key>hash2</key>
 			<data>
 			cUfK+ckgKhbBESKw+CQpPiEbiVorQZrwvXj5zGqlsFY=
@@ -71,43 +63,27 @@
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JLqFmkeV6h38oZ9P5p5lyZIsUAg=
-			</data>
 			<key>hash2</key>
 			<data>
-			Ee7L0rZHUpj6xZuUwxpXQ/UdaRxb5ZyCVd1g4D2c898=
+			Q4INEetR+sV8HcFIgdDeqrMVIk/HFugv+edIDphG/ao=
 			</data>
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nijtHZ84YEGLtmmG0EakYwEsDRA=
-			</data>
 			<key>hash2</key>
 			<data>
-			OmW+8S+E9XceL07u3TUOXZsOBxhn9ZsMrZduUe65AY8=
+			jCrBQhE5YS1qHshtj3ntS97T3Mma1jNeS1/9rWhIFX8=
 			</data>
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			u/orQf8e3egEXH5nw73Z5b5Kqg0=
-			</data>
 			<key>hash2</key>
 			<data>
-			gqYzE6ex6ycE6yd33f/rjc1wHeYLz4//1d8T8weaQoc=
+			GmTttguGb7fX5StJ6Qu9zU8yzlY6RPLkEIqJ1khmIC4=
 			</data>
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KKFhFu3b2Ojo9382W5OzReG96mg=
-			</data>
 			<key>hash2</key>
 			<data>
 			TMp0Og6FwrL47QX1/ZDNNqUBJBmnDKe20NRmvfgOMpk=
@@ -115,32 +91,20 @@
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			u/orQf8e3egEXH5nw73Z5b5Kqg0=
-			</data>
 			<key>hash2</key>
 			<data>
-			gqYzE6ex6ycE6yd33f/rjc1wHeYLz4//1d8T8weaQoc=
+			GmTttguGb7fX5StJ6Qu9zU8yzlY6RPLkEIqJ1khmIC4=
 			</data>
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			C047L9bi+jvhXEscdQKI8qd4jxU=
-			</data>
 			<key>hash2</key>
 			<data>
-			/i+upm6LbWlIT28guVe7NPFA8zH8UW5343ZJQ8predk=
+			fVl8AQXEewLZ1IA5uzEjT3f7eRwx7HyzyWdfNawfpUI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			H61l4m55Wfn7TQ7tFAgNXqx1Sis=
-			</data>
 			<key>hash2</key>
 			<data>
 			9ZjiY2VrLEhRb3zglVjj4zuIZ4gdaUtXC0seEEJUUyE=

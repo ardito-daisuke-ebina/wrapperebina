@@ -18,19 +18,19 @@
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		q6qoYFDYLXJVo0C1kVQA2UfkJTY=
+		uqB76OOWcJGRcZXTu9JeMq6wTVA=
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		zq0uniD0xlw/FzAFFRvPToW1cdo=
+		9Te/8VcdmsKEYhkzwqkTluvF5sU=
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		nijtHZ84YEGLtmmG0EakYwEsDRA=
+		+I7NLlgyR24qRksyevrxQiW++tg=
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		lSWSOBKm08iWtG7KYdNRRujAi78=
+		b+iayGG7zFF7ofMT5NICFQunPoM=
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		lSWSOBKm08iWtG7KYdNRRujAi78=
+		b+iayGG7zFF7ofMT5NICFQunPoM=
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		p7JDiwJWliWHBKSxilLFWSeuZ5Y=
+		lE6ORgdzQaQCl9QRv4ybPOrqjNE=
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		nijtHZ84YEGLtmmG0EakYwEsDRA=
+		+I7NLlgyR24qRksyevrxQiW++tg=
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		tiQJNoFm9F/KGYiBzKHPCshoUaI=
+		NQx1nGfSHfmXsR+QNcyWzmLEO54=
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tiQJNoFm9F/KGYiBzKHPCshoUaI=
+		NQx1nGfSHfmXsR+QNcyWzmLEO54=
 		</data>
 		<key>Modules/EbinaFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WliDfmOmbDkQXw/rWk9AUj9CVnc=
+		o28SMsyIKqZ323+UUAsZrYEZRH4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -73,10 +73,6 @@
 	<dict>
 		<key>Headers/EbinaFramework-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OrWIA2f3eqBK3K6CGBMLHWraBqU=
-			</data>
 			<key>hash2</key>
 			<data>
 			7MnOY+sP4cuZotN02EWULk+SSbHiHfKSHthFj5y6iuU=
@@ -84,10 +80,6 @@
 		</dict>
 		<key>Headers/EbinaFramework.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bbqhQy7tPFvNZG6BpNesaT8X5dk=
-			</data>
 			<key>hash2</key>
 			<data>
 			cUfK+ckgKhbBESKw+CQpPiEbiVorQZrwvXj5zGqlsFY=
@@ -95,54 +87,34 @@
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			q6qoYFDYLXJVo0C1kVQA2UfkJTY=
-			</data>
 			<key>hash2</key>
 			<data>
-			UkzE1QTXr9x2Ys1Cou7NYPbK7Z8Btvy6/7wvf10/bXw=
+			XoN5etAWXSMDuhYNc13Ioi3LF1nuszqYLkLkbYKjiis=
 			</data>
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zq0uniD0xlw/FzAFFRvPToW1cdo=
-			</data>
 			<key>hash2</key>
 			<data>
-			wDtaNQ02Ygow47Rf0LAPcd86EpVmha2rG+udqBvp/9E=
+			58qp1qYR3eDnf1KU/Yr93VzlB9uxB0DA0uTL4V5M5qs=
 			</data>
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nijtHZ84YEGLtmmG0EakYwEsDRA=
-			</data>
 			<key>hash2</key>
 			<data>
-			OmW+8S+E9XceL07u3TUOXZsOBxhn9ZsMrZduUe65AY8=
+			jCrBQhE5YS1qHshtj3ntS97T3Mma1jNeS1/9rWhIFX8=
 			</data>
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lSWSOBKm08iWtG7KYdNRRujAi78=
-			</data>
 			<key>hash2</key>
 			<data>
-			MjHIAVTWwhaxhHiURLPx7YX7oKlSwuFizoGBGyefv2g=
+			WvddBeybxY6tfEvz/HI+kdxlH+BoErWVFTl2w0/zzy4=
 			</data>
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tkWCg8DYTmO028SW9WmhrQInzhY=
-			</data>
 			<key>hash2</key>
 			<data>
 			2Y2WuIfkdWsm8CGEq5m/s19iwnJr/iCrGYO6rmXRQxo=
@@ -150,54 +122,34 @@
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lSWSOBKm08iWtG7KYdNRRujAi78=
-			</data>
 			<key>hash2</key>
 			<data>
-			MjHIAVTWwhaxhHiURLPx7YX7oKlSwuFizoGBGyefv2g=
+			WvddBeybxY6tfEvz/HI+kdxlH+BoErWVFTl2w0/zzy4=
 			</data>
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			p7JDiwJWliWHBKSxilLFWSeuZ5Y=
-			</data>
 			<key>hash2</key>
 			<data>
-			dHEt0DVr5XA9MOWtWrIKXwv71NWluyC68Fk0U+9IAu0=
+			8rU54ATjcC4szGFoGeLcl2bfyuRtUjgbtJLEyR7acpM=
 			</data>
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nijtHZ84YEGLtmmG0EakYwEsDRA=
-			</data>
 			<key>hash2</key>
 			<data>
-			OmW+8S+E9XceL07u3TUOXZsOBxhn9ZsMrZduUe65AY8=
+			jCrBQhE5YS1qHshtj3ntS97T3Mma1jNeS1/9rWhIFX8=
 			</data>
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tiQJNoFm9F/KGYiBzKHPCshoUaI=
-			</data>
 			<key>hash2</key>
 			<data>
-			BlIPCwFBjZpqnyP3vqFO4/Gk4N59FHSY2b35aJVG1Go=
+			x5FpA3he4Kds7g9plf50CvMt+D3NN4jZ9aXgLkEkuFU=
 			</data>
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zy3TelNEwVZJsf+Kh6cEmrLt9U8=
-			</data>
 			<key>hash2</key>
 			<data>
 			KHlJW6MsR0kKTPGvZnGkcgWVYwGJKCMqiPNRuL1xig0=
@@ -205,32 +157,20 @@
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tiQJNoFm9F/KGYiBzKHPCshoUaI=
-			</data>
 			<key>hash2</key>
 			<data>
-			BlIPCwFBjZpqnyP3vqFO4/Gk4N59FHSY2b35aJVG1Go=
+			x5FpA3he4Kds7g9plf50CvMt+D3NN4jZ9aXgLkEkuFU=
 			</data>
 		</dict>
 		<key>Modules/EbinaFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WliDfmOmbDkQXw/rWk9AUj9CVnc=
-			</data>
 			<key>hash2</key>
 			<data>
-			oIKLgys2TxKOF87l0gNuJcUkY0vZNyCj/Q+clZoeikU=
+			QF1cHb7hp1DmyAyNOZplbArZxcPGr7VxBc/3Clfb4Yw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			H61l4m55Wfn7TQ7tFAgNXqx1Sis=
-			</data>
 			<key>hash2</key>
 			<data>
 			9ZjiY2VrLEhRb3zglVjj4zuIZ4gdaUtXC0seEEJUUyE=

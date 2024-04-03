@@ -15,6 +15,924 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "AVFAudio",
+        "printedName": "AVFAudio",
+        "declKind": "Import",
+        "moduleName": "EbinaFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "EbinaFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OGGConverterError",
+        "printedName": "OGGConverterError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "failedToCreateAVAudioChannelLayout",
+            "printedName": "failedToCreateAVAudioChannelLayout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EbinaFramework.OGGConverterError.Type) -> EbinaFramework.OGGConverterError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OGGConverterError",
+                    "printedName": "EbinaFramework.OGGConverterError",
+                    "usr": "s:14EbinaFramework17OGGConverterErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EbinaFramework.OGGConverterError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OGGConverterError",
+                        "printedName": "EbinaFramework.OGGConverterError",
+                        "usr": "s:14EbinaFramework17OGGConverterErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14EbinaFramework17OGGConverterErrorO34failedToCreateAVAudioChannelLayoutyA2CmF",
+            "mangledName": "$s14EbinaFramework17OGGConverterErrorO34failedToCreateAVAudioChannelLayoutyA2CmF",
+            "moduleName": "EbinaFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "failedToCreatePCMBuffer",
+            "printedName": "failedToCreatePCMBuffer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EbinaFramework.OGGConverterError.Type) -> EbinaFramework.OGGConverterError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OGGConverterError",
+                    "printedName": "EbinaFramework.OGGConverterError",
+                    "usr": "s:14EbinaFramework17OGGConverterErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EbinaFramework.OGGConverterError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OGGConverterError",
+                        "printedName": "EbinaFramework.OGGConverterError",
+                        "usr": "s:14EbinaFramework17OGGConverterErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14EbinaFramework17OGGConverterErrorO23failedToCreatePCMBufferyA2CmF",
+            "mangledName": "$s14EbinaFramework17OGGConverterErrorO23failedToCreatePCMBufferyA2CmF",
+            "moduleName": "EbinaFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "other",
+            "printedName": "other",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EbinaFramework.OGGConverterError.Type) -> (Swift.Error) -> EbinaFramework.OGGConverterError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> EbinaFramework.OGGConverterError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OGGConverterError",
+                        "printedName": "EbinaFramework.OGGConverterError",
+                        "usr": "s:14EbinaFramework17OGGConverterErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EbinaFramework.OGGConverterError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OGGConverterError",
+                        "printedName": "EbinaFramework.OGGConverterError",
+                        "usr": "s:14EbinaFramework17OGGConverterErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14EbinaFramework17OGGConverterErrorO5otheryACs0D0_pcACmF",
+            "mangledName": "$s14EbinaFramework17OGGConverterErrorO5otheryACs0D0_pcACmF",
+            "moduleName": "EbinaFramework"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14EbinaFramework17OGGConverterErrorO",
+        "mangledName": "$s14EbinaFramework17OGGConverterErrorO",
+        "moduleName": "EbinaFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OGGConverter",
+        "printedName": "OGGConverter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "convertOpusOGGToM4aFile",
+            "printedName": "convertOpusOGGToM4aFile(src:dest:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14EbinaFramework12OGGConverterC23convertOpusOGGToM4aFile3src4desty10Foundation3URLV_AItKFZ",
+            "mangledName": "$s14EbinaFramework12OGGConverterC23convertOpusOGGToM4aFile3src4desty10Foundation3URLV_AItKFZ",
+            "moduleName": "EbinaFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertM4aFileToOpusOGG",
+            "printedName": "convertM4aFileToOpusOGG(src:dest:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14EbinaFramework12OGGConverterC23convertM4aFileToOpusOGG3src4desty10Foundation3URLV_AItKFZ",
+            "mangledName": "$s14EbinaFramework12OGGConverterC23convertM4aFileToOpusOGG3src4desty10Foundation3URLV_AItKFZ",
+            "moduleName": "EbinaFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14EbinaFramework12OGGConverterC",
+        "mangledName": "$s14EbinaFramework12OGGConverterC",
+        "moduleName": "EbinaFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EbinaFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AudioToolbox",
+        "printedName": "AudioToolbox",
+        "declKind": "Import",
+        "moduleName": "EbinaFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "YbridOpus",
+        "printedName": "YbridOpus",
+        "declKind": "Import",
+        "moduleName": "EbinaFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "YbridOgg",
+        "printedName": "YbridOgg",
+        "declKind": "Import",
+        "moduleName": "EbinaFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OGGEncoder",
+        "printedName": "OGGEncoder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(format:opusRate:application:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OGGEncoder",
+                "printedName": "EbinaFramework.OGGEncoder",
+                "usr": "s:14EbinaFramework10OGGEncoderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AudioStreamBasicDescription",
+                "printedName": "CoreAudioTypes.AudioStreamBasicDescription",
+                "usr": "c:@S@AudioStreamBasicDescription"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Application",
+                "printedName": "EbinaFramework.Application",
+                "usr": "s:14EbinaFramework11ApplicationO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14EbinaFramework10OGGEncoderC6format8opusRate11applicationACSo27AudioStreamBasicDescriptionV_s5Int32VAA11ApplicationOtKcfc",
+            "mangledName": "$s14EbinaFramework10OGGEncoderC6format8opusRate11applicationACSo27AudioStreamBasicDescriptionV_s5Int32VAA11ApplicationOtKcfc",
+            "moduleName": "EbinaFramework",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(pcmRate:pcmChannels:pcmBytesPerFrame:opusRate:application:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OGGEncoder",
+                "printedName": "EbinaFramework.OGGEncoder",
+                "usr": "s:14EbinaFramework10OGGEncoderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Application",
+                "printedName": "EbinaFramework.Application",
+                "usr": "s:14EbinaFramework11ApplicationO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14EbinaFramework10OGGEncoderC7pcmRate0D8Channels0D13BytesPerFrame04opusE011applicationACs5Int32V_AJs6UInt32VAjA11ApplicationOtKcfc",
+            "mangledName": "$s14EbinaFramework10OGGEncoderC7pcmRate0D8Channels0D13BytesPerFrame04opusE011applicationACs5Int32V_AJs6UInt32VAjA11ApplicationOtKcfc",
+            "moduleName": "EbinaFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(pcm:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AudioQueueBuffer",
+                "printedName": "AudioToolbox.AudioQueueBuffer",
+                "usr": "c:@S@AudioQueueBuffer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14EbinaFramework10OGGEncoderC6encode3pcmySo16AudioQueueBufferV_tKF",
+            "mangledName": "$s14EbinaFramework10OGGEncoderC6encode3pcmySo16AudioQueueBufferV_tKF",
+            "moduleName": "EbinaFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(pcm:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14EbinaFramework10OGGEncoderC6encode3pcmy10Foundation4DataV_tKF",
+            "mangledName": "$s14EbinaFramework10OGGEncoderC6encode3pcmy10Foundation4DataV_tKF",
+            "moduleName": "EbinaFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bitstream",
+            "printedName": "bitstream(flush:fillBytes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int32?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14EbinaFramework10OGGEncoderC9bitstream5flush9fillBytes10Foundation4DataVSb_s5Int32VSgtF",
+            "mangledName": "$s14EbinaFramework10OGGEncoderC9bitstream5flush9fillBytes10Foundation4DataVSb_s5Int32VSgtF",
+            "moduleName": "EbinaFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14EbinaFramework10OGGEncoderC",
+        "mangledName": "$s14EbinaFramework10OGGEncoderC",
+        "moduleName": "EbinaFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Application",
+        "printedName": "Application",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "voip",
+            "printedName": "voip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EbinaFramework.Application.Type) -> EbinaFramework.Application",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Application",
+                    "printedName": "EbinaFramework.Application",
+                    "usr": "s:14EbinaFramework11ApplicationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EbinaFramework.Application.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Application",
+                        "printedName": "EbinaFramework.Application",
+                        "usr": "s:14EbinaFramework11ApplicationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14EbinaFramework11ApplicationO4voipyA2CmF",
+            "mangledName": "$s14EbinaFramework11ApplicationO4voipyA2CmF",
+            "moduleName": "EbinaFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "audio",
+            "printedName": "audio",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EbinaFramework.Application.Type) -> EbinaFramework.Application",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Application",
+                    "printedName": "EbinaFramework.Application",
+                    "usr": "s:14EbinaFramework11ApplicationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EbinaFramework.Application.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Application",
+                        "printedName": "EbinaFramework.Application",
+                        "usr": "s:14EbinaFramework11ApplicationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14EbinaFramework11ApplicationO5audioyA2CmF",
+            "mangledName": "$s14EbinaFramework11ApplicationO5audioyA2CmF",
+            "moduleName": "EbinaFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "lowDelay",
+            "printedName": "lowDelay",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EbinaFramework.Application.Type) -> EbinaFramework.Application",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Application",
+                    "printedName": "EbinaFramework.Application",
+                    "usr": "s:14EbinaFramework11ApplicationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EbinaFramework.Application.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Application",
+                        "printedName": "EbinaFramework.Application",
+                        "usr": "s:14EbinaFramework11ApplicationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14EbinaFramework11ApplicationO8lowDelayyA2CmF",
+            "mangledName": "$s14EbinaFramework11ApplicationO8lowDelayyA2CmF",
+            "moduleName": "EbinaFramework"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Application",
+                "printedName": "EbinaFramework.Application",
+                "usr": "s:14EbinaFramework11ApplicationO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Application",
+                "printedName": "EbinaFramework.Application",
+                "usr": "s:14EbinaFramework11ApplicationO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14EbinaFramework11ApplicationO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14EbinaFramework11ApplicationO2eeoiySbAC_ACtFZ",
+            "moduleName": "EbinaFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14EbinaFramework11ApplicationO9hashValueSivp",
+            "mangledName": "$s14EbinaFramework11ApplicationO9hashValueSivp",
+            "moduleName": "EbinaFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EbinaFramework11ApplicationO9hashValueSivg",
+                "mangledName": "$s14EbinaFramework11ApplicationO9hashValueSivg",
+                "moduleName": "EbinaFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14EbinaFramework11ApplicationO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14EbinaFramework11ApplicationO4hash4intoys6HasherVz_tF",
+            "moduleName": "EbinaFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14EbinaFramework11ApplicationO",
+        "mangledName": "$s14EbinaFramework11ApplicationO",
+        "moduleName": "EbinaFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EbinaFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "YbridOpus",
+        "printedName": "YbridOpus",
+        "declKind": "Import",
+        "moduleName": "EbinaFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "YbridOgg",
+        "printedName": "YbridOgg",
+        "declKind": "Import",
+        "moduleName": "EbinaFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Copustools",
+        "printedName": "Copustools",
+        "declKind": "Import",
+        "moduleName": "EbinaFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OGGDecoder",
+        "printedName": "OGGDecoder",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "pcmData",
+            "printedName": "pcmData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14EbinaFramework10OGGDecoderC7pcmData10Foundation0E0Vvp",
+            "mangledName": "$s14EbinaFramework10OGGDecoderC7pcmData10Foundation0E0Vvp",
+            "moduleName": "EbinaFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EbinaFramework10OGGDecoderC7pcmData10Foundation0E0Vvg",
+                "mangledName": "$s14EbinaFramework10OGGDecoderC7pcmData10Foundation0E0Vvg",
+                "moduleName": "EbinaFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EbinaFramework10OGGDecoderC7pcmData10Foundation0E0Vvs",
+                "mangledName": "$s14EbinaFramework10OGGDecoderC7pcmData10Foundation0E0Vvs",
+                "moduleName": "EbinaFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14EbinaFramework10OGGDecoderC7pcmData10Foundation0E0VvM",
+                "mangledName": "$s14EbinaFramework10OGGDecoderC7pcmData10Foundation0E0VvM",
+                "moduleName": "EbinaFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(audioData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OGGDecoder",
+                "printedName": "EbinaFramework.OGGDecoder",
+                "usr": "s:14EbinaFramework10OGGDecoderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14EbinaFramework10OGGDecoderC9audioDataAC10Foundation0E0V_tKcfc",
+            "mangledName": "$s14EbinaFramework10OGGDecoderC9audioDataAC10Foundation0E0V_tKcfc",
+            "moduleName": "EbinaFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14EbinaFramework10OGGDecoderC",
+        "mangledName": "$s14EbinaFramework10OGGDecoderC",
+        "moduleName": "EbinaFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EbinaFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Copustools",
+        "printedName": "Copustools",
+        "declKind": "Import",
+        "moduleName": "EbinaFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "YbridOgg",
+        "printedName": "YbridOgg",
+        "declKind": "Import",
+        "moduleName": "EbinaFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "YbridOpus",
+        "printedName": "YbridOpus",
+        "declKind": "Import",
+        "moduleName": "EbinaFramework"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Article",
         "printedName": "Article",
@@ -106,15 +1024,15 @@
       },
       {
         "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
+        "name": "YbridOpus",
+        "printedName": "YbridOpus",
         "declKind": "Import",
         "moduleName": "EbinaFramework"
       },
       {
         "kind": "Import",
-        "name": "Moya",
-        "printedName": "Moya",
+        "name": "YbridOgg",
+        "printedName": "YbridOgg",
         "declKind": "Import",
         "moduleName": "EbinaFramework"
       }
@@ -123,18 +1041,1061 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/TestAlamo.swift",
-      "kind": "StringLiteral",
-      "offset": 242,
-      "length": 37,
-      "value": "\"https:\/\/appdev-room.com\/api\/article\""
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGConverter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1073,
+      "length": 1,
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/TestAlamo.swift",
-      "kind": "Array",
-      "offset": 421,
-      "length": 2,
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGConverter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1449,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGConverter.swift",
+      "kind": "Dictionary",
+      "offset": 1653,
+      "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGConverter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2605,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGConverter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3267,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGConverter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3422,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGConverter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3531,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1579,
+      "length": 4,
+      "value": "3832"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 2544,
+      "length": 86,
+      "value": "\"Resampling is not supported. Please ensure that the PCM and Opus sample rates match.\""
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2741,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2771,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2804,
+      "length": 3,
+      "value": "960"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2811,
+      "length": 5,
+      "value": "48000"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3014,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3214,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3998,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4060,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4534,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4559,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4675,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4797,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5008,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5534,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5559,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5675,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5797,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6008,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6574,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6770,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7165,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7374,
+      "length": 5,
+      "value": "48000"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7532,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7561,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7689,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7823,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8459,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9179,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9243,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9430,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9637,
+      "length": 5,
+      "value": "48000"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9783,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9808,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9924,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10046,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10203,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10620,
+      "length": 5,
+      "value": "48000"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10824,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10965,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11029,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11216,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11506,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11531,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11647,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11769,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11862,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11920,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12011,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12103,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12693,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "Array",
+      "offset": 13442,
+      "length": 50,
+      "value": "[0x4f, 0x70, 0x75, 0x73, 0x48, 0x65, 0x61, 0x64]"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13530,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14255,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14426,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14592,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14768,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "Array",
+      "offset": 15203,
+      "length": 50,
+      "value": "[0x4f, 0x70, 0x75, 0x73, 0x54, 0x61, 0x67, 0x73]"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 15435,
+      "length": 9,
+      "value": "\"ENCODER\""
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 15453,
+      "length": 27,
+      "value": "\"IBM Mobile Innovation Lab\""
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15776,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16022,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 16393,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 16400,
+      "length": 1,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 16409,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16619,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16868,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16888,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16911,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16868,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16888,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16911,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16868,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16888,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16911,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 768,
+      "length": 5,
+      "value": "48000"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 869,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1143,
+      "length": 3,
+      "value": "960"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1149,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1704,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1787,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1885,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1959,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2058,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2162,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2253,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2341,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2450,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2542,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2617,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2772,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "Array",
+      "offset": 2857,
+      "length": 34,
+      "value": "[8000, 12000, 16000, 24000, 48000]"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3209,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3389,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3792,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3827,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4692,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4900,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5528,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 5550,
+      "length": 34,
+      "value": "\"Does not look like an opus file.\""
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6162,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6245,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6266,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 6293,
+      "length": 10,
+      "value": "\"OpusHead\""
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6305,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6311,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6497,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6722,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 6800,
+      "length": 75,
+      "value": "\"Apparent chaining without changing serial number. Something bad happened.\""
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7049,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7090,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7126,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7162,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7198,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 7251,
+      "length": 32,
+      "value": "\"Warning: ignoring opus stream.\""
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7526,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7806,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8037,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8057,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8396,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8432,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8495,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8627,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8647,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 8679,
+      "length": 53,
+      "value": "\"Extra packets on initial tags page. Invalid stream.\""
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9131,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9179,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 9209,
+      "length": 78,
+      "value": "\"Decoding error: \""
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 9286,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9653,
+      "length": 5,
+      "value": "48000"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9865,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10158,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10239,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11666,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11796,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11821,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11853,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12060,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/OGGDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12232,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/Article.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 53,
+      "value": "\"fjsaljdfklsjaklfjaljflkajslkfjaljflkjaslkfjklasjflk\""
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/Article.swift",
+      "kind": "StringLiteral",
+      "offset": 709,
+      "length": 25,
+      "value": "\"https:\/\/www.yahoo.co.jp\""
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/Article.swift",
+      "kind": "StringLiteral",
+      "offset": 768,
+      "length": 25,
+      "value": "\"https:\/\/www.yahoo.co.jp\""
+    },
+    {
+      "filePath": "\/Users\/ebina\/EbinaFrameworkOrigin\/EbinaFramework\/Article.swift",
+      "kind": "StringLiteral",
+      "offset": 828,
+      "length": 25,
+      "value": "\"https:\/\/www.yahoo.co.jp\""
     }
   ]
 }
